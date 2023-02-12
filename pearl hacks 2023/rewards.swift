@@ -43,7 +43,7 @@ struct rewards: View {
                     .accentColor(Color(red: 0.3412, green: 0.4588, blue: 0.4039))
                 
             }
-            Link(destination: URL(string: "https://usa.renskincare.com")!) {
+            Link(destination: URL(string: "https://avrao2.github.io/pearl_hacks/")!) {
                 HStack {
                     Text("redeem your rewards")
                         .frame(minWidth: 0, maxWidth: 200)
