@@ -7,13 +7,14 @@
 
 import SwiftUI
 
+
 @main
 struct hackduke_2022__sana_goyalApp: App {
     @StateObject var viewRouter = ViewRouter()
     var body: some Scene {
         
         WindowGroup {
-            MotherView().environmentObject(viewRouter)
+            ContentView().environmentObject(viewRouter)
         }
     }
 }

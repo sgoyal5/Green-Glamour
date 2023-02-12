@@ -18,18 +18,18 @@ struct ContentView: View {
         
     var body: some View {
         TabView{
+            inclusivity()
+                .tabItem(){
+                    Image(systemName: "globe.asia.australia")
+                    Text("Browse Brands")
+                }
         
             search_products()
                 .tabItem(){
                     Image(systemName: "leaf.circle")
-                    Text("Browse brands")
+                    Text("Search Products")
                 }
 
-            inclusivity()
-                .tabItem(){
-                    Image(systemName: "globe.asia.australia")
-                    Text("Products")
-                }
 
 
             rewards()
