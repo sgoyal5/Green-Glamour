@@ -7,13 +7,13 @@ struct rewards: View {
     var body: some View {
         
         ZStack{
-            Color(red: 25, green: 0, blue: 0)
+            Color(red: 254, green: 249, blue: 254)
                 .ignoresSafeArea()
             VStack{
                 Rectangle()
-                    .fill(Color(red: 0, green: 0, blue: 20))
+                    .fill(Color(red: 131, green: 163, blue: 147))
                     .frame(width: 400, height: 400)
-                    .position(x: -100, y: 100)
+                    .position(x: 100, y: -120)
                 Text("Green Glamour")
                     .font(.title)
                     .fontWeight(.bold)
