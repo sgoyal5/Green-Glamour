@@ -13,7 +13,6 @@
 
 import SwiftUI
 
-
 struct ContentView: View {
     @State private var searchText = ""
         
@@ -22,20 +21,20 @@ struct ContentView: View {
         
             search_products()
                 .tabItem(){
-                    Image(systemName: "house")
+                    Image(systemName: "leaf.circle")
                     Text("Browse brands")
                 }
 
             inclusivity()
                 .tabItem(){
-                    Image(systemName: "v.square.fill")
+                    Image(systemName: "globe.asia.australia")
                     Text("Products")
                 }
 
 
             rewards()
                 .tabItem(){
-                    Image(systemName: "house")
+                    Image(systemName: "dollarsign.circle")
                     Text("Your Rewards")
                 }
 
