@@ -9,7 +9,7 @@ struct search_products: View {
     var body: some View {
         ZStack
         {
-            Color(red: 0, green: 0, blue: 0)
+            Color(red: 254, green: 235, blue: 237)
                 .ignoresSafeArea()
             VStack{
                 VStack{

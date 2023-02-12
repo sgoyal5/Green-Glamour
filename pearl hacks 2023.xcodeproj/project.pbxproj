@@ -16,6 +16,8 @@
 		571C838A29985D0800C592EA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C838929985D0800C592EA /* Helper.swift */; };
 		571C838C29985E2700C592EA /* search_products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C838B29985E2600C592EA /* search_products.swift */; };
 		571C838E29985E7400C592EA /* rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C838D29985E7400C592EA /* rewards.swift */; };
+		571C839029986C2600C592EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C838F29986C2600C592EA /* ContentView.swift */; };
+		571C83962998736200C592EA /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C83952998736200C592EA /* CircleProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		571C838929985D0800C592EA /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		571C838B29985E2600C592EA /* search_products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search_products.swift; sourceTree = "<group>"; };
 		571C838D29985E7400C592EA /* rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rewards.swift; sourceTree = "<group>"; };
+		571C838F29986C2600C592EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		571C83952998736200C592EA /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +67,13 @@
 			children = (
 				571C83772998567800C592EA /* pearl_hacks_2023App.swift */,
 				571C838529985CD300C592EA /* MotherView.swift */,
+				571C838F29986C2600C592EA /* ContentView.swift */,
 				571C838729985CF100C592EA /* ViewRouter.swift */,
 				571C838929985D0800C592EA /* Helper.swift */,
 				571C838B29985E2600C592EA /* search_products.swift */,
 				571C83792998567800C592EA /* inclusivity.swift */,
 				571C838D29985E7400C592EA /* rewards.swift */,
+				571C83952998736200C592EA /* CircleProgressView.swift */,
 				571C837B2998567900C592EA /* Assets.xcassets */,
 				571C837D2998567900C592EA /* Preview Content */,
 			);
@@ -154,6 +160,8 @@
 			files = (
 				571C837A2998567800C592EA /* inclusivity.swift in Sources */,
 				571C838C29985E2700C592EA /* search_products.swift in Sources */,
+				571C83962998736200C592EA /* CircleProgressView.swift in Sources */,
+				571C839029986C2600C592EA /* ContentView.swift in Sources */,
 				571C838629985CD300C592EA /* MotherView.swift in Sources */,
 				571C838A29985D0800C592EA /* Helper.swift in Sources */,
 				571C83782998567800C592EA /* pearl_hacks_2023App.swift in Sources */,

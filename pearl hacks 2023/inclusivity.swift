@@ -69,7 +69,7 @@ struct inclusivity: View {
                     .foregroundColor(.white)
                     .padding()
                 Button(action: {
-                   viewRouter.currentPage = .page3
+                   viewRouter.currentPage = .page35
                 }){
                     Text("Yes I would love to learn more!")
                         .frame(minWidth: 0, maxWidth: 200)
